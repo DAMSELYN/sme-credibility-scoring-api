@@ -1,4 +1,3 @@
-# sme-credibility-scoring-api
 SME Credibility Scoring System (API)
 
  Project Overview
@@ -17,7 +16,7 @@ Problem Statement
 
 Many SMEs struggle to access funding due to a lack of standardized financial credibility assessment.
 
-This system provides a data-driven credibility scoring mechanism to support investor and lending decisions.
+This system gives a data-backed credibility score to support investor and lending decisions.
 
 Tech Stack
 
@@ -47,7 +46,7 @@ Created derived features (revenue growth, consistency score)
 
 Engineered target variable using financial rules
 
-Final dataset size: < 40 SMEs
+Final dataset size: < 50 SMEs
 
  Model Details
 
@@ -97,11 +96,6 @@ credible_class = 1 if probability ≥ 0.5 else 0
 
  Running Locally
 
-Clone repository:
-
-git clone https://github.com/yourusername/sme-credibility-scoring-api.git
-cd sme-credibility-scoring-api
-
 Install dependencies:
 
 pip install -r requirements.txt
@@ -120,9 +114,11 @@ sme-credibility-scoring-api/
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+
  Limitations
 
-Small dataset (< 40 samples)
+Small dataset (< 50 samples)
 
 Self-reported financial data
 
